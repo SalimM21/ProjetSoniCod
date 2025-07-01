@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Web Simple</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        button {
+            background: #35424a;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #e8491d;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #35424a;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page !</h1>
+    </header>
+    <main>
+        <p>Ceci est une page web simple avec :</p>
+        <ul>
+            <li>HTML pour la structure</li>
+            <li>CSS pour le style</li>
+            <li>JavaScript pour l'interactivité</li>
+        </ul>
+        <button onclick="afficherMessage()">Cliquez-moi !</button>
+        <p id="message"></p>
+    </main>
+    <footer>
+        <p>© 2024 - Page Simple</p>
+    </footer>
+
+    <script>
+        function afficherMessage() {
+            document.getElementById("message").innerHTML = "Bravo, vous avez cliqué ! 🎉";
+        }
+    </script>
+</body>
+</html>
