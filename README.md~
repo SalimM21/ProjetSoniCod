@@ -1,0 +1,28 @@
+# Nom du Projet
+
+![Badge de version](https://img.shields.io/badge/Version-1.0-green)
+
+Description courte (1-2 phrases).
+
+## 🚀 Fonctionnalités
+- Liste des principales fonctionnalités
+- Points clés
+
+## 📦 Installation
+```bash
+git clone https://github.com/votre/projet.git
+cd projet
+npm install  # ou autre commande
+```
+
+## 🛠 Usage
+```python
+import mon_projet
+mon_projet.run()
+```
+
+## 📄 Documentation
+[Lien vers docs](https://...)
+
+## 🤝 Contribution
+Ouvrez une issue ou soumettez une PR.
