@@ -1,28 +1,17 @@
-# Nom du Projet
+# 💰 Challenge PY Salaire - Gestion des Salaires
 
-![Badge de version](https://img.shields.io/badge/Version-1.0-green)
+![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue)
+![Version](https://img.shields.io/badge/Version-1.0.0-green)
 
-Description courte (1-2 phrases).
+Ensemble de challenges Python pour maîtriser les bases du langage à travers des calculs salariaux.
 
-## 🚀 Fonctionnalités
-- Liste des principales fonctionnalités
-- Points clés
+## 🚀 Fonctionnalités Principales
+- 🧮 Calculs salariaux de base (heures/taux horaire)
+- 📊 Fonctions avancées de gestion de paie
+- 🗂 Manipulation de structures de données complexes
+- 📈 Analyse statistique simple des salaires
 
-## 📦 Installation
+## 📦 Installation & Configuration
+1. Clonez le dépôt :
 ```bash
-git clone https://github.com/votre/projet.git
-cd projet
-npm install  # ou autre commande
-```
-
-## 🛠 Usage
-```python
-import mon_projet
-mon_projet.run()
-```
-
-## 📄 Documentation
-[Lien vers docs](https://...)
-
-## 🤝 Contribution
-Ouvrez une issue ou soumettez une PR.
+git clone https://github.com/votre-utilisateur/challenge-PY-Salaire.git
